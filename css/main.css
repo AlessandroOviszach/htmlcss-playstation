@@ -25,13 +25,14 @@ body button.br-50 {
 
 /* jumbotron section */
 .jumbo-container {
-    height: 975px;
+    height: 70vh;
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
 
     position: relative;
+    color: white;
 }
 
 .jumbo-container div img {
@@ -45,6 +46,12 @@ body button.br-50 {
 
 #returnal-logo {
     width: 250px;
+}
+
+.jumbo-item {
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 
