@@ -1,0 +1,16 @@
+/* general styles */
+body {
+    font-family: Arial;
+}
+
+header > nav {
+    font-family: Helvetica;
+}
+
+.sony_logo {
+    width: 5%;
+}
+
+body button.br-50 {
+    border-radius: 20px;
+}
