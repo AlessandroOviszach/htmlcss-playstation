@@ -8,9 +8,51 @@ header > nav {
 }
 
 .sony_logo {
-    width: 5%;
+    height: 15px;
 }
 
 body button.br-50 {
     border-radius: 20px;
 }
+
+/* utilities */
+
+/* Header */
+/* navbar section */
+#lens {
+    width: 50%;
+}
+
+/* jumbotron section */
+.jumbo-container {
+    height: 975px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+}
+
+.jumbo-container div img {
+    width: 100%;
+}
+
+.jumbo-content {
+    position: absolute;
+    bottom: 50px;
+}
+
+#returnal-logo {
+    width: 250px;
+}
+
+
+
+
+
+
+
+
+
+

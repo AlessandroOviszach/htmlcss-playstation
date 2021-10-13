@@ -21,14 +21,16 @@
         </div>
 
         <!-- nav menu -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="./img/ps-footer.svg" alt="Playstation">
               </a>
+
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
@@ -59,19 +61,35 @@
                 <ul class="navbar-nav d-flex align-items-center">
                     <li class="nav-item">My PlayStation</li>
 
-                    <li class="nav-item">
+                    <li class="nav-item px-4">
                         <button type="button" class="btn btn-dark br-50">Accedi</button>
                     </li>
 
                     <li class="nav-item">
-                        <img src="./img/lens.svg" alt="Search">
+                        <img id="lens" src="./img/lens.svg" alt="Search">
                     </li>
-
-
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
+
+          <!-- Jumbotron section -->
+        <section class="jumbo-container">
+            <div class="container col-12 d-flex flex-column">
+                <div class="jumbo-content col-12 col-lg-3">
+                    <img id="returnal-logo" src="./img/returnal-hero-banner-logo.png" alt="">
+
+                    <h1>Rompi il cerchio</h1>
+
+                    <p>
+                        Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico disponibile in esclusiva su PS5.
+                    </p>
+
+                    <button type="button" class="btn btn-danger br-50 col-4">Aquista ora</button>
+                </div>
+                
+            </div>
+        </section>
     </header>
 </body>
 </html>
