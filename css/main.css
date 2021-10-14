@@ -17,6 +17,18 @@ body button.br-50 {
 
 /* utilities */
 
+.title {
+    font-size: 30px;
+}
+
+.paragraph {
+    font-size: 10px;
+}
+
+.subtitle {
+    font-size: 15px;
+}
+
 /* Header */
 /* navbar section */
 #lens {
@@ -50,6 +62,7 @@ body button.br-50 {
 
 .jumbo-item-container {
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 .jumbo-item-container > [class*=col-] {
@@ -62,6 +75,9 @@ body button.br-50 {
     border-radius: 10px;
 }
 
+section.console {
+    padding-top: 50px;
+}
 
 
 
