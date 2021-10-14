@@ -48,7 +48,15 @@ body button.br-50 {
     width: 250px;
 }
 
-.jumbo-item {
+.jumbo-item-container {
+    padding-top: 30px;
+}
+
+.jumbo-item-container > [class*=col-] {
+    padding: px;
+}
+
+.box {
     height: 120px;
     border: 1px solid black;
     border-radius: 10px;
