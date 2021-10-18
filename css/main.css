@@ -65,8 +65,9 @@ body button.br-50 {
     padding-bottom: 100px;
 }
 
+/* TODO non funziona il padding */
 .jumbo-item-container > [class*=col-] {
-    padding: px;
+    padding: 10px;
 }
 
 .box {
@@ -79,8 +80,26 @@ section.console {
     padding-top: 50px;
 }
 
+.console-img-container img {
+    width: 100%;
+}
+
+.console-gadget-img-container img {
+    width: 50%;
+}
 
 
+/* description banner */
+.description-banner-1 {
+    height: 70vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    position: relative;
+    color: white;
+}
 
 
 
