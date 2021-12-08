@@ -52,7 +52,9 @@ body button.br-50 {
 }
 
 .jumbo-content {
+    height: 100%;
     position: absolute;
+    top: 3rem;
     bottom: 50px;
 }
 
@@ -65,8 +67,7 @@ body button.br-50 {
     padding-bottom: 100px;
 }
 
-/* TODO non funziona il padding */
-.jumbo-item-container > [class*=col-] {
+.jumbo-item-container [class*=col-] {
     padding: 10px;
 }
 
@@ -91,7 +92,7 @@ section.console {
 
 /* description banner */
 .description-banner-1 {
-    height: 70vh;
+    height: 100vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-position: top;
@@ -99,6 +100,12 @@ section.console {
 
     position: relative;
     color: white;
+}
+
+/* new releases */
+.new-releases {
+    height: 80vh;
+    background-color: #1f1f1f;
 }
 
 
